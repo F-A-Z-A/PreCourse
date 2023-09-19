@@ -1,10 +1,10 @@
-let number1 = Math.floor(Math.random() * 100)
+let number1 = Math.floor(Math.random() * 100);
 
 if(number1%2 === 0){
-    console.log(number1 + ':Это четное число»');
+    console.log('«' + number1 + ' :Это четное число»');
 } else{
-    console.log(number1 + ':Это нечетное число»');
+    console.log('«' + number1 + ' :Это нечетное число»');
 }
 
-// 7 :Это нечетное число»
-// 32 :Это четное число»
+// «7:Это нечетное число»
+// «32:Это четное число»
