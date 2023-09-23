@@ -1,2 +1,2 @@
-let str = "zzzzyzz";
-str.includes("y") === true ? console.log("нашел") : console.log("заблудился");
+str = str.includes("y");
+(str === true) ? console.log("нашел") : console.log("заблудился");
