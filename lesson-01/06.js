@@ -1,1 +1,1 @@
-(str === true) ? console.log("нашел") : console.log("заблудился");
+str.includes("y") === true ? console.log("нашел") : console.log("заблудился");
