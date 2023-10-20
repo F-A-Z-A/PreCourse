@@ -15,5 +15,6 @@ let passportMarried2 = {
         city: "Bobryisk"
     }
 };
+passportMarried2.married = true;
 console.log(passportMarried);
 console.log(passportMarried2);
