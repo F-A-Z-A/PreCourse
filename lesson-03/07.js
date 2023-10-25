@@ -3,11 +3,11 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-const numbers2 = [];
-for (let arr of numbers) {
-    for (let num of arr) {
-        if (num % 2 === 0) {
-            numbers2.push(num);
+const numbers2 = [[],[],[]];
+for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < numbers[i].length; j++) {
+        if (numbers[i][j] % 2 === 0) {
+            numbers2[i].push(numbers[i][j])
         }
     }
 }
