@@ -3,12 +3,4 @@ const numbers = [
     [11, 20, 33, 40, 55],
     [111, 200, 333, 400, 555],
 ];
-const numbers2 = [[],[],[]];
-for (let i = 0; i < numbers.length; i++) {
-    for (let j = 0; j < numbers[i].length; j++) {
-        if (numbers[i][j] % 2 === 0) {
-            numbers2[i].push(numbers[i][j])
-        }
-    }
-}
-console.log(numbers2)
+console.log(numbers.map(row => row.filter(el => el % 2 === 0)))
