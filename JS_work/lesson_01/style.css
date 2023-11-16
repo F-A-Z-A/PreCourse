@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    font-size: 24px;
+}
+
+.income {
+    color: green;
+}
+
+.outcome {
+    color: red;
+}
+
+.card_block {
+    background-color: lightslategray;
+    padding: 10px;
+}
